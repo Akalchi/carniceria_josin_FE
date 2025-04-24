@@ -23,9 +23,8 @@ function HomePage() {
     Bienvenido, elija una opción
   </div>
 
-  {/* Contenedor de botones (horizontal) */}
   <div className="flex justify-center space-x-6">
-    {/* Botón 1: Ver inventario */}
+
     <button className="w-56 h-48 bg-[#eaa838] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-lg flex flex-col items-center justify-center space-y-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +43,6 @@ function HomePage() {
       <span className="text-white font-semibold text-lg">Ver inventario</span>
     </button>
 
-    {/* Botón 2: Usuarios */}
     <button className="w-56 h-48 bg-[#eaa838] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-lg flex flex-col items-center justify-center space-y-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +61,6 @@ function HomePage() {
       <span className="text-white font-semibold text-lg">Usuarios</span>
     </button>
 
-    {/* Botón 3: Gráficas */}
     <button className="w-56 h-48 bg-[#eaa838] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-lg flex flex-col items-center justify-center space-y-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"

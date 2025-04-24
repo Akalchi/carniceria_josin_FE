@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoMenu, IoClose } from 'react-icons/io5';
 import { FaUserCircle } from "react-icons/fa"; 
-import logo from '../assets/logo.jpeg'; 
+import logo from '../assets/logo/logo.jpeg'; 
 
 function Header({ toggleSidebar, isSidebarOpen }) {
   return (

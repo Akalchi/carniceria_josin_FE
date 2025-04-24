@@ -13,28 +13,24 @@ function Sidebar({ isSidebarOpen }) {
       </div>
 
       <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <span className="text-white text-xs font-extrabold">Inicio</span>
+        <span className="text-white text-xs font-bold">Inicio</span>
       </button>
 
       <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <span className="text-white text-xs font-extrabold">Inicio</span>
+        <span className="text-white text-xs font-bold">Escritorio</span>
       </button>
 
       <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <span className="text-white text-xs font-extrabold">Escritorio</span>
+        <span className="text-white text-xs font-bold">Gráficas y estadísticas</span>
       </button>
 
       <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <span className="text-white text-xs font-extrabold">Gráficas y Estadísticas</span>
-      </button>
-
-      <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <span className="text-white text-xs font-extrabold">Usuarios</span>
+        <span className="text-white text-xs font-bold">Usuarios</span>
       </button>
 
 
       <button className="w-full h-9 flex items-center justify-end space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <span className="text-white text-xs font-extrabold">Salir</span>
+        <span className="text-white text-xs font-bold">Salir</span>
       </button>
     </div>
   );

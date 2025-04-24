@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 
 function HomePage() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
+  const handleInventoryClick = () => {
+    navigate('/inventory');
+  };
+
 
   return (
     <div className="flex flex-col h-screen">
@@ -25,7 +32,9 @@ function HomePage() {
 
   <div className="flex justify-center space-x-6">
 
-    <button className="w-56 h-48 bg-[#eaa838] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-lg flex flex-col items-center justify-center space-y-2">
+    <button 
+     onClick={handleInventoryClick}
+    className="w-56 h-48 bg-[#eaa838] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-lg flex flex-col items-center justify-center space-y-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-12 w-12 text-white"

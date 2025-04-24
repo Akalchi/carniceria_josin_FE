@@ -19,8 +19,10 @@ function HomePage() {
         <Sidebar isSidebarOpen={isSidebarOpen} />
 
         <main className="flex-1 p-4 bg-gray-100 overflow-auto">
-          <h1 className="text-2xl font-bold">Bienvenido a MiApp</h1>
-          <p>Este es el contenido principal de tu aplicación.</p>
+        <div className="w-[569px] h-12 text-center justify-center text-[#4a6032] text-3xl font-semibold font-['Inter'] leading-[30px]">Bienvenido, elija una opción</div>
+        <button className="w-60 h-[252px] bg-[#eaa838] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]" 
+        
+        />
         </main>
       </div>
       

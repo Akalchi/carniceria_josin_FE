@@ -5,8 +5,12 @@ import logo from '../assets/logo.jpeg';
 
 function Header({ toggleSidebar, isSidebarOpen }) {
   return (
-    <header className="bg-[#4A6032] shadow-sm p-2 flex items-center ">
-    
+    <header 
+      className={`bg-[#4A6032] shadow-sm p-2 flex items-center transition-all duration-300 ${
+        isSidebarOpen ? 'ml-[267px]' : 'ml-0'
+      }`}
+    >
+
       <button 
         onClick={toggleSidebar}
         className="mr-4 text-white focus:outline-none"

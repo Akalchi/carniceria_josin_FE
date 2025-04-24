@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom"; 
-import Login from "../pages/Login";
 import Homepage from "../pages/Homepage";
 
 const AppRoutes = () => {
@@ -7,8 +6,7 @@ const AppRoutes = () => {
     
     <Routes>
       {/* <Route path="/" element={} /> */}
-      <Route path="/" element={<Login />} />
-      <Route path="/admin-dashboard" element={<Homepage />} />
+      <Route path="/" element={<Homepage />} />
     </Routes>
   );
 };

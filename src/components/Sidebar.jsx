@@ -12,34 +12,28 @@ function Sidebar({ isSidebarOpen }) {
         Carnicería Josin
       </div>
 
-      <button className="w-full h-9 flex items-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <FaHome className="text-white ml-4" size={16} />
+      <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
         <span className="text-white text-xs font-extrabold">Inicio</span>
       </button>
 
-      <button className="w-full h-9 flex items-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <FaUser className="text-white ml-4" size={16} />
+      <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
         <span className="text-white text-xs font-extrabold">Inicio</span>
       </button>
 
-      <button className="w-full h-9 flex items-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <FaCog className="text-white ml-4" size={16} />
+      <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
         <span className="text-white text-xs font-extrabold">Escritorio</span>
       </button>
 
-      <button className="w-full h-9 flex items-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <FaCog className="text-white ml-4" size={16} />
+      <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
         <span className="text-white text-xs font-extrabold">Gráficas y Estadísticas</span>
       </button>
 
-      <button className="w-full h-9 flex items-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <FaCog className="text-white ml-4" size={16} />
+      <button className="w-full h-9 flex items-center justify-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
         <span className="text-white text-xs font-extrabold">Usuarios</span>
       </button>
 
 
-      <button className="w-full h-9 flex items-center space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
-        <FaSignOutAlt className="text-white ml-4" size={16} />
+      <button className="w-full h-9 flex items-center justify-end space-x-2 bg-[#4A6032] rounded-[5px] hover:bg-[#3a4d2f] transition-colors">
         <span className="text-white text-xs font-extrabold">Salir</span>
       </button>
     </div>

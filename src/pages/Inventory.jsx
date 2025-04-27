@@ -56,8 +56,8 @@ function InventoryPage() {
               >
                 <h3 className="text-lg font-semibold">{product.name}</h3>
                 <p className="text-gray-600">Categoría: {product.category}</p>
-                <p>Precio/Kg: ${product.priceKg}</p>
-                <p>Stock: {product.stockKg} Kg</p>
+                <p>Precio/Kg: {product.priceKg}€</p>
+                <p>Cantidad: {product.stockKg} Kg</p>
                 <button
                   onClick={() => handleDeleteProduct(product.id)}
                   className="mt-4 px-4 py-2 bg-red-500 text-white rounded"
